@@ -1,0 +1,7 @@
+h1{
+    color: aquamarine;
+}
+table,th,td{
+    border-collapse: collapse;
+border-color: rgb(23, 97, 159);
+}

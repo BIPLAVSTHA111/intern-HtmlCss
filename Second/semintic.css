@@ -1,0 +1,15 @@
+nav{
+    background-color: rgb(130, 148, 148);
+}
+aside{
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    text-align: justify;
+    float: right;
+    
+}
+
+footer{
+    display: block;
+}

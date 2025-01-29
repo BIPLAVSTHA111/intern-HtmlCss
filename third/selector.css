@@ -1,0 +1,20 @@
+.first{
+    font-size: 20em;
+    color: blue;
+}
+#second{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    border: 20px solid black;
+    padding: 20px 20px;
+    text-align: justify;
+    
+    float:right;
+    position: relative;
+}
+h1 {
+    font-weight: 100em;
+    color: green;
+    
+    position: relative;
+}
