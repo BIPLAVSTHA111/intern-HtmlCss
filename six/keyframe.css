@@ -1,0 +1,22 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 5s;
+    position: relative;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes example {
+    /* from{background-color: black;}
+    to{background-color: orange;} */
+    
+    0% {background-color: red; top: 0px; left: 0px;}
+    25% {background-color: yellow;left: 200px; top: 0px;}
+    50% {background-color: blue; left: 200px; top: 200px;}
+    75% {background-color: green; left: 0px; top: 200px;}
+    100% {background-color: silver; left: 0px; top: 0px;}
+}

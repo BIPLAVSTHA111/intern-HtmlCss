@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    position: absolute;
+    z-index: -1;
+    top: 0px;
+    bottom: 0px;
+
+}
+/* .logo2{
+ height: 200px;
+ width: auto;
+z-index: -1;
+object-fit: fill;
+position: absolute;
+ 
+}
+.box2{
+    border: 2px solid black;
+    display: flex;
+    height: 80%;
+} */
+.logo2 {
+    height: 100%;  
+    width: 100%;   
+    position: absolute;  
+    z-index: -1; 
+    object-fit: cover;  
+    opacity: 0.4;  
+}
+
+.box2 {
+    border: 2px solid black;
+    display: flex;
+    height: 80vh;  
+    width: 100%;  
+    position: relative; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden; 
+}
+p{
+    margin: 7px;
+    text-align: justify;
+    font-size: 1em;
+    overflow: hidden;
+}
