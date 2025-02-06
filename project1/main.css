@@ -2,8 +2,16 @@ body{
     margin: 0;
     padding: 0;
 }
-
-
+a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
 .container{
 display: flex;
 font-size: 30px;
@@ -12,17 +20,87 @@ display: flex;
 justify-content:space-around ;
 width: 100%;
 align-items: center;
-background-color: orange;
+background-color: rgb(101, 189, 163);
+height: 100px;
 
 }
 .logo{
+width: 20%;
+
  display: flex;
+ /* justify-content: space-between; */
+
  
 }
-.navbar{
-    display: flex;
-    }
+.logo img{
+    width: 50%;
+}
 
-.A1{
-    border: 2px solid black;
+
+.nav1{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav2{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    background-color:rgb(67, 121, 105);
+    height: 100px;
+    
+}
+.Description{
+/* border: 2px solid black; */
+width: 60%;
+margin: 30px 20px;
+text-align: justify;
+}
+
+.Description img{
+    width: 100%;
+}
+.aside{
+    /* border: 2px solid black; */
+    width: 40%;
+    margin: 30px 20px;
+    text-align: justify;
+    }
+.aside img{
+    width: 100%;
+}
+.main{
+    display: flex;
+    margin-top: 100px;
+}
+.subfooter{
+    text-align: justify;
+    /* border: 2px solid black; */
+    margin: 30px 20px;
+    display: flex;
+    overflow: hidden;
+    width: 97%;
+    height: 100%;
+    /* overflow: hidden; */
+    margin: 30px 20px;
+}
+.subfooter img{
+    width: 97%;
+    z-index: -1; 
+    position: absolute; 
+    height: 73%;  
+    
+}
+.content2{
+    width: 40%;
+    font-size: larger;
+    
+}
+.fullcontent{
+    padding-left:20px;
+}
+.footer{
+    margin: 30px 20px;
+    text-align: justify;
 }

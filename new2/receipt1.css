@@ -1,0 +1,100 @@
+xbody {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.header img {
+    width: 80px;
+}
+h2 {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 100px;
+}
+.Transaction{
+border: 1px solid black;
+
+display: flex;
+border-radius:10px ;
+justify-content: space-between;
+}
+.Transaction img{
+    height: 60px;
+    width: 110px;
+    justify-content: left;
+   
+}
+.colum2{
+    margin-right: 200px;
+    padding-top: 10px;
+
+}
+.colum3{
+    padding-top: 10px;
+    padding-right: 28px;
+}
+.subcol2{
+    font-size: small;
+}
+.subcol1{
+    font-size: small;
+}
+table {
+    
+    border-spacing: 0;
+    width: 100%;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    
+}
+
+td, th {
+    border: 0.5px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Apply border-radius only to the outermost corners */
+tr:first-child td:first-child { border-top-left-radius: 9px; }
+tr:first-child td:last-child { border-top-right-radius: 9px; }
+tr:last-child td:first-child { border-bottom-left-radius: 9px; }
+tr:last-child td:last-child { border-bottom-right-radius: 9px; }
+
+/* table{
+    border-collapse: collapse;
+    
+    
+}
+td{
+    border: 1px solid black ;   
+    padding: 5px;
+}
+tr{
+    height: 50px;
+    text-align: left;
+    
+} */
+.container2{
+display: flex;
+}
+
+.sec2{
+    margin-left: 39px;
+}
