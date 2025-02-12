@@ -57,12 +57,12 @@ justify-content: space-between;
     font-size: small;
 }
 table {
-    
+    border-collapse: separate;
     border-spacing: 0;
     width: 100%;
     border: 0.5px solid black;
     border-radius: 10px;
-    
+    overflow: hidden;
 }
 
 td, th {
@@ -71,26 +71,11 @@ td, th {
     text-align: left;
 }
 
-/* Apply border-radius only to the outermost corners */
 tr:first-child td:first-child { border-top-left-radius: 9px; }
 tr:first-child td:last-child { border-top-right-radius: 9px; }
 tr:last-child td:first-child { border-bottom-left-radius: 9px; }
 tr:last-child td:last-child { border-bottom-right-radius: 9px; }
 
-/* table{
-    border-collapse: collapse;
-    
-    
-}
-td{
-    border: 1px solid black ;   
-    padding: 5px;
-}
-tr{
-    height: 50px;
-    text-align: left;
-    
-} */
 .container2{
 display: flex;
 }
